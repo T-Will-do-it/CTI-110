@@ -1,0 +1,20 @@
+print("-----Calculating Exponents-----")
+
+
+base_value = int(input("\n\nEnter an integer as the base value:"))
+exponent = int(input("Enter an integer as the exponent:"))
+
+product = pow(base_value,exponent)
+print('')
+print('')
+print(base_value, 'raised to the power of', exponent, 'is',  product, '!!')
+print('')
+print('')
+print('-----Addition and Subtraction-----')
+starting_integer = int(input("\n\nEnter a starting integer:"))
+addition_integer = int(input("Enter an integer to add:"))
+subtraction_integer = int(input("Enter an integer to subtract:"))
+product = int(starting_integer + addition_integer - subtraction_integer)
+print('')
+print('')
+print(starting_integer, '+', addition_integer, '-', subtraction_integer, 'is equal to', product)
